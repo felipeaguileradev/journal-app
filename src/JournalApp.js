@@ -1,11 +1,8 @@
 import React from "react";
+import AppRouter from "./components/routers/AppRouter";
 
 const JournalApp = () => {
-  return (
-    <div>
-      <h1>Journal</h1>
-    </div>
-  );
+  return <AppRouter />;
 };
 
 export default JournalApp;
